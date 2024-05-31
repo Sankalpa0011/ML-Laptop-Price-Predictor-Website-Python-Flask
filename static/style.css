@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Wrapper Styles */
+.wrapper {
+    background: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styles */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #007BFF;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Field Styles */
+.inputfield {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.inputfield label {
+    margin-bottom: 5px;
+    display: block;
+    color: #666;
+    font-size: 14px;
+}
+
+.inputfield .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.inputfield .input:focus {
+    border-color: #007BFF;
+}
+
+/* Custom Select Styles */
+.custom_select {
+    position: relative;
+}
+
+.custom_select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEgMmw1IDUgNS01IiBzdHJva2U9IiNDQ0MiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==') no-repeat right 10px center;
+    background-size: 12px 8px;
+    cursor: pointer;
+}
+
+.custom_select select:focus {
+    border-color: #007BFF;
+}
+
+/* Checkbox Styles */
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.check div {
+    display: flex;
+    align-items: center;
+}
+
+.check label {
+    margin-left: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Button Styles */
+.button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+/* Result Styles */
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result p {
+    color: #333;
+    font-size: 18px;
+}
